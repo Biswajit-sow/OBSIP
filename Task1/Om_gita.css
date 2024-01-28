@@ -1,0 +1,232 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+     background: linear-gradient(to right, #ff6b6b, #556270); 
+    color: #c22727;
+    overflow-x: hidden;
+}
+img{
+    display:flex;
+    height:500px;
+    width: 1000px;
+    animation:fadeIn 5s;
+    transform:translate(-1px,-520px);
+    border-radius: 25px;
+}
+header {
+    padding: 0.01em 0;
+    animation: fadeIn 2s;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color:bisque;
+    max-width: 1850px;
+    /* color:#c22727; */
+    font-family: cursive;
+    font-size: 20px;
+    text-align: left;
+    box-shadow: 12px 12px 4px 2px red;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align:center;
+    text-indent: 30px;
+   
+}
+header  ul{
+        padding: 30px;
+        margin-right: 20px;
+        display: inline-block;
+        margin: 0 10px;
+    text-decoration: none;
+    }
+
+div:hover {
+    color: rgb(16, 58, 114);
+    
+  }
+  
+  @media (hover: hover) {
+    /* when hover is supported */
+    div:hover {
+      color: rgb(255, 255, 255);
+      
+    }
+  }
+  #W541{
+    color:rgb(4, 4, 43);
+    font-size: 50px;
+    text-indent: 50px;
+    color: rgb(4, 4, 43);
+    font-size:50px;
+  }
+  #W789{
+    padding-left: 20px;
+    color:rgb(39, 158, 238);
+    font-size:20px;
+   
+  }
+
+
+#m123{
+    text-align: center;
+    font-size: 80px;
+    color:aqua;
+    padding: 20rem;
+    font-family:arial black;
+    font-size:70px;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 35s linear infinite;
+}
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+button{
+    display:flex;
+    height: 50px;
+    width: 200px;
+    padding-left: 35px;
+    padding-top: 10px;
+    margin-left: 700px;
+    margin-bottom: 10em;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow:4px 4px 0.04px 0.04px #000;
+
+    
+}
+button:hover{
+    background-color: #00adb5;
+    color:blue;
+    box-shadow:4px 4px 0.04px 0.04px rgb(1, 22, 82);
+}
+button:active{
+    background-color: pink;
+}
+#m456{
+    display:flex;
+    height:600px;
+    width: 1800px;
+    font-size: 20px;
+    border-radius: 25px;
+    font-family:monospace;
+    color:black;
+    border:2px solid black;
+    background-image: url("gita.1.jpg");
+    background-size: cover;
+    animation:fadeIn 5s;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-left: 35px;
+    text-align: center;
+}
+#m753{
+    
+    display:flex;
+    height:600px;
+    width: 1800px;
+    font-size: 20px;
+    border-radius: 25px;
+    font-family:monospace;
+    color:rgb(167, 191, 33);
+    border:2px solid black;
+    background-image: url("krishna3.1.jpeg");
+    background-size:cover;
+    animation:fadeIn 5s;
+    /* transform:translate(700px,-0.001px) ; */
+    padding-left: 20px;
+    margin-left:35px;
+    text-align: center;
+}
+img{
+    display:flex;
+    height:800px;
+    width: 1830px;
+    border-radius: 25px;
+    animation:fadeIn 5s;
+    /* transform:translate(-15px,520px); */
+    border-radius: 25px;
+    margin-top: 540px;
+    margin-left:35px
+}
+#f025{
+    font-size:15px;
+    display:flex;
+    height: 10px;
+    width: 100px;
+    padding-right: 123px;
+    /* padding-top: 10px; */
+    padding-bottom: 40px;
+    margin-bottom: 0.5em;
+    margin-inline-start: 0px;
+    
+    font-family:'Times New Roman', Times, serif;
+    box-shadow:4px 4px 0.04px 0.04px #000;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #00adb5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+  
+
+@keyframes fadeInUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+body{
+    background-image: url("murli3.jpg");
+    
+    background-size:contain;
+}
+#audio {
+    display: none;
+   
+}
+
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00adb5;
+}
+h4{
+    font-size: 20px;
+    color:white;
+}
+#b789{
+    font-size:30px;
+}
+footer h2{
+    color:white;
+   
+    font-size:40px;
+
+}
